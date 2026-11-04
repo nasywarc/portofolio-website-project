@@ -35,3 +35,25 @@ body {
 .example {
   color: white;
 }
+
+.nav-pills .nav-link {
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-pills .nav-link:hover {
+  background-color: #dcdde1;
+  color: #282a35;
+}
+
+/* Active state */
+.nav-pills .nav-link.active {
+  background-color: #dcdde1;
+  color: #282a35;
+}
+
+#scrollspyHeading3 {
+  margin-bottom: 10vh !important;
+}
